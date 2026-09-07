@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd launch-and-close && npm install && npm run build",
+  "outputDirectory": "launch-and-close/dist"
+}

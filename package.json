@@ -1,0 +1,13 @@
+{
+  "name": "launch-and-close-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix launch-and-close run dev",
+    "build": "npm --prefix launch-and-close install && npm --prefix launch-and-close run build",
+    "preview": "npm --prefix launch-and-close run preview"
+  },
+  "dependencies": {
+    "vite": "^6.2.0"
+  }
+}

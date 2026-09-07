@@ -108,6 +108,10 @@
   :root {
     --lc-section-pad-y: 80px;
     --lc-section-pad-x: 20px;
-    --lc-size-body: 15px;
+    --lc-size-body: 16px;
+    --lc-size-display: clamp(38px, 9.5vw, 56px);
+    --lc-size-display-2: clamp(32px, 8vw, 46px);
+    --lc-size-heading: clamp(28px, 7vw, 38px);
+    --lc-size-subheading: clamp(19px, 4.5vw, 24px);
   }
 }

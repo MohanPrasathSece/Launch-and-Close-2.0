@@ -1637,14 +1637,15 @@ button, input, textarea {
   }
 
   .section-headline {
-    font-size: clamp(28px, 7.5vw, 44px) !important;
-    line-height: 1.1 !important;
+    font-size: clamp(32px, 8.5vw, 48px) !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.035em !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
   }
 
   .section-sub {
-    font-size: 15px !important;
+    font-size: 16px !important;
     line-height: 1.55 !important;
     word-break: break-word !important;
   }
@@ -1685,7 +1686,7 @@ button, input, textarea {
   .hero-pill {
     max-width: 100% !important;
     padding: 6px 14px !important;
-    font-size: 10px !important;
+    font-size: 11px !important;
     letter-spacing: 0.08em !important;
     margin-bottom: 28px !important;
     white-space: normal !important;
@@ -1697,8 +1698,9 @@ button, input, textarea {
   }
 
   .hero-headline {
-    font-size: clamp(32px, 8.5vw, 46px) !important;
-    line-height: 1.05 !important;
+    font-size: clamp(38px, 9.5vw, 56px) !important;
+    line-height: 1.04 !important;
+    letter-spacing: -0.035em !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
     max-width: 100% !important;
@@ -1706,7 +1708,7 @@ button, input, textarea {
   }
 
   .hero-sub {
-    font-size: 15px !important;
+    font-size: 16px !important;
     max-width: 100% !important;
     padding: 0 4px !important;
     margin-bottom: 28px !important;
@@ -1723,7 +1725,7 @@ button, input, textarea {
     width: 100% !important;
     box-sizing: border-box !important;
     padding: 14px 20px !important;
-    font-size: 14px !important;
+    font-size: 15px !important;
   }
 
   .hero-trust {
@@ -1736,7 +1738,7 @@ button, input, textarea {
   }
 
   .trust-item {
-    font-size: 13px !important;
+    font-size: 13.5px !important;
     word-break: break-word !important;
   }
 
@@ -1764,7 +1766,7 @@ button, input, textarea {
   }
 
   .console-val {
-    font-size: 28px !important;
+    font-size: 30px !important;
   }
 
   .funnel-container {
@@ -1781,7 +1783,7 @@ button, input, textarea {
   }
   
   .beam-val {
-    font-size: clamp(20px, 5.5vw, 26px) !important;
+    font-size: clamp(22px, 6vw, 28px) !important;
     flex-shrink: 0 !important;
   }
 
@@ -1795,12 +1797,12 @@ button, input, textarea {
   }
 
   .beam-info h4 {
-    font-size: 15px !important;
+    font-size: 17px !important;
     word-break: break-word !important;
   }
 
   .beam-info p {
-    font-size: 9px !important;
+    font-size: 10px !important;
   }
   
   .proof-grid {
@@ -1817,7 +1819,7 @@ button, input, textarea {
   }
 
   .proof-metric {
-    font-size: clamp(30px, 8vw, 38px) !important;
+    font-size: clamp(34px, 9vw, 44px) !important;
     word-break: break-word !important;
   }
 
@@ -1843,12 +1845,12 @@ button, input, textarea {
   }
 
   .process-title {
-    font-size: 20px !important;
+    font-size: 23px !important;
     word-break: break-word !important;
   }
 
   .process-desc {
-    font-size: 14px !important;
+    font-size: 14.5px !important;
     word-break: break-word !important;
   }
 
@@ -1881,12 +1883,12 @@ button, input, textarea {
   }
 
   .cap-title {
-    font-size: 20px !important;
+    font-size: 23px !important;
     word-break: break-word !important;
   }
 
   .cap-desc {
-    font-size: 14px !important;
+    font-size: 14.5px !important;
     word-break: break-word !important;
   }
 
@@ -1936,13 +1938,13 @@ button, input, textarea {
   }
 
   .td-typical {
-    font-size: 13px !important;
+    font-size: 13.5px !important;
     color: #71768a !important;
     word-break: break-word !important;
   }
 
   .td-highlight {
-    font-size: 13px !important;
+    font-size: 13.5px !important;
     padding: 10px 12px !important;
     border-radius: 10px !important;
     background: rgba(0, 87, 255, 0.16) !important;
@@ -1953,7 +1955,7 @@ button, input, textarea {
   }
 
   .comparison-closing {
-    font-size: 14px !important;
+    font-size: 14.5px !important;
     margin-top: 28px !important;
     padding: 0 4px !important;
   }
@@ -1972,11 +1974,11 @@ button, input, textarea {
   }
 
   .check-content h5 {
-    font-size: 15px !important;
+    font-size: 17px !important;
   }
 
   .check-content p {
-    font-size: 13px !important;
+    font-size: 13.5px !important;
     word-break: break-word !important;
   }
 
@@ -1985,6 +1987,10 @@ button, input, textarea {
     border-radius: 20px !important;
     width: 100% !important;
     box-sizing: border-box !important;
+  }
+
+  .prospect-info h4 {
+    font-size: 18px !important;
   }
 
   .doc-meta-grid {
@@ -2004,7 +2010,7 @@ button, input, textarea {
   }
 
   .doc-footer {
-    font-size: 10px !important;
+    font-size: 10.5px !important;
     word-break: break-word !important;
   }
 
@@ -2023,11 +2029,13 @@ button, input, textarea {
   }
 
   .contact-left-panel h3 {
-    font-size: 24px !important;
+    font-size: 28px !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.02em !important;
   }
 
   .contact-left-panel p {
-    font-size: 14px !important;
+    font-size: 14.5px !important;
   }
 
   .reassurance-list {
@@ -2036,7 +2044,7 @@ button, input, textarea {
   }
 
   .reassurance-item {
-    font-size: 13px !important;
+    font-size: 13.5px !important;
   }
 
   .contact-form-panel {
@@ -2070,7 +2078,7 @@ button, input, textarea {
   }
 
   .footer-wordmark {
-    font-size: clamp(28px, 9vw, 64px) !important;
+    font-size: clamp(36px, 11vw, 76px) !important;
     letter-spacing: -0.02em !important;
     margin: 16px 0 32px !important;
     word-break: break-word !important;
@@ -2095,7 +2103,29 @@ button, input, textarea {
   }
 
   .hero-headline {
-    font-size: clamp(28px, 8vw, 38px) !important;
+    font-size: clamp(34px, 9.2vw, 44px) !important;
+    line-height: 1.05 !important;
+  }
+
+  .section-headline {
+    font-size: clamp(29px, 8.2vw, 38px) !important;
+    line-height: 1.08 !important;
+  }
+
+  .process-title {
+    font-size: 21px !important;
+  }
+
+  .cap-title {
+    font-size: 21px !important;
+  }
+
+  .contact-left-panel h3 {
+    font-size: 25px !important;
+  }
+
+  .check-content h5 {
+    font-size: 16px !important;
   }
 
   .pipeline-console {
@@ -2106,8 +2136,12 @@ button, input, textarea {
     padding: 14px 12px !important;
   }
 
+  .beam-info h4 {
+    font-size: 16px !important;
+  }
+
   .beam-val {
-    font-size: 20px !important;
+    font-size: 22px !important;
   }
 
   .contact-left-panel, .contact-form-panel {

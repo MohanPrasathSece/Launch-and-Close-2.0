@@ -168,30 +168,49 @@ export function initHeroShader(canvasId = 'hero-shader') {
   let mouseY = window.innerHeight * 0.5;
   let targetMouseX = mouseX;
   let targetMouseY = mouseY;
+  let isVisible = true;
+  let isRunning = false;
+  let animId = null;
 
-  window.addEventListener('mousemove', (e) => {
+  const handleMouseMove = (e) => {
+    if (!isVisible) return;
     targetMouseX = e.clientX;
     targetMouseY = window.innerHeight - e.clientY;
-  });
+  };
+
+  window.addEventListener('mousemove', handleMouseMove, { passive: true });
 
   function resize() {
-    const width = canvas.parentElement ? canvas.parentElement.clientWidth : window.innerWidth;
-    const height = canvas.parentElement ? canvas.parentElement.clientHeight : window.innerHeight;
-    if (canvas.width !== width || canvas.height !== height) {
-      canvas.width = width;
-      canvas.height = height;
-      gl.viewport(0, 0, width, height);
+    const parent = canvas.parentElement;
+    const width = parent ? parent.clientWidth : window.innerWidth;
+    const height = parent ? parent.clientHeight : window.innerHeight;
+    const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+    const renderWidth = Math.floor(width * dpr);
+    const renderHeight = Math.floor(height * dpr);
+
+    if (canvas.width !== renderWidth || canvas.height !== renderHeight) {
+      canvas.width = renderWidth;
+      canvas.height = renderHeight;
+      gl.viewport(0, 0, renderWidth, renderHeight);
     }
   }
 
-  window.addEventListener('resize', resize);
+  // Handle resizing without layout thrashing inside the render loop
+  window.addEventListener('resize', resize, { passive: true });
+  if (window.ResizeObserver && canvas.parentElement) {
+    const ro = new ResizeObserver(() => resize());
+    ro.observe(canvas.parentElement);
+  }
   resize();
 
   let startTime = performance.now();
-  let animId;
 
   function render() {
-    resize();
+    if (!isVisible) {
+      isRunning = false;
+      return;
+    }
+
     const time = (performance.now() - startTime) * 0.001;
 
     mouseX += (targetMouseX - mouseX) * 0.06;
@@ -204,16 +223,48 @@ export function initHeroShader(canvasId = 'hero-shader') {
 
     gl.uniform1f(uTimeLoc, time);
     gl.uniform2f(uResLoc, canvas.width, canvas.height);
-    gl.uniform2f(uMouseLoc, mouseX, mouseY);
+    gl.uniform2f(uMouseLoc, mouseX * (canvas.width / (canvas.parentElement?.clientWidth || window.innerWidth)), mouseY * (canvas.height / (canvas.parentElement?.clientHeight || window.innerHeight)));
 
     gl.drawArrays(gl.TRIANGLES, 0, 6);
     animId = requestAnimationFrame(render);
   }
 
-  render();
+  function startLoop() {
+    if (!isRunning && isVisible) {
+      isRunning = true;
+      animId = requestAnimationFrame(render);
+    }
+  }
+
+  function stopLoop() {
+    if (animId) {
+      cancelAnimationFrame(animId);
+      animId = null;
+    }
+    isRunning = false;
+  }
+
+  // Pause WebGL rendering entirely when offscreen to ensure silky-smooth scrolling
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      isVisible = entry.isIntersecting;
+      if (isVisible) {
+        startLoop();
+      } else {
+        stopLoop();
+      }
+    });
+  }, { threshold: 0.05 });
+
+  const heroSection = canvas.closest('section') || canvas;
+  observer.observe(heroSection);
+
+  startLoop();
 
   return () => {
-    cancelAnimationFrame(animId);
+    stopLoop();
+    observer.disconnect();
+    window.removeEventListener('mousemove', handleMouseMove);
     window.removeEventListener('resize', resize);
   };
 }

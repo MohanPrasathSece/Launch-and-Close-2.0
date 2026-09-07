@@ -1475,7 +1475,7 @@ button, input, textarea {
   display: grid;
   grid-template-columns: 2fr 1fr 1.5fr;
   gap: 60px;
-  margin-bottom: 70px;
+  margin-bottom: 48px;
 }
 
 .footer-col h5 {
@@ -1505,18 +1505,7 @@ button, input, textarea {
 }
 
 .footer-wordmark {
-  width: 100%;
-  text-align: center;
-  font-size: clamp(60px, 12vw, 160px);
-  font-weight: 700;
-  letter-spacing: -0.04em;
-  line-height: 0.9;
-  color: rgba(255, 255, 255, 0.05);
-  margin: 40px 0 60px;
-  user-select: none;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.01) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  display: none !important;
 }
 
 .footer-bottom {
@@ -1624,7 +1613,7 @@ button, input, textarea {
   }
 
   .section {
-    padding: 64px 0 !important;
+    padding: 72px 0 !important;
     overflow-x: hidden !important;
     overflow-x: clip !important;
     width: 100% !important;
@@ -1637,9 +1626,10 @@ button, input, textarea {
   }
 
   .section-headline {
-    font-size: clamp(32px, 8.5vw, 48px) !important;
-    line-height: 1.08 !important;
+    font-size: clamp(34px, 8.8vw, 46px) !important;
+    line-height: 1.04 !important;
     letter-spacing: -0.035em !important;
+    font-weight: 600 !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
   }
@@ -1698,9 +1688,10 @@ button, input, textarea {
   }
 
   .hero-headline {
-    font-size: clamp(38px, 9.5vw, 56px) !important;
-    line-height: 1.04 !important;
+    font-size: clamp(42px, 10.5vw, 56px) !important;
+    line-height: 1.0 !important;
     letter-spacing: -0.035em !important;
+    font-weight: 600 !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
     max-width: 100% !important;
@@ -1708,7 +1699,7 @@ button, input, textarea {
   }
 
   .hero-sub {
-    font-size: 16px !important;
+    font-size: 16.5px !important;
     max-width: 100% !important;
     padding: 0 4px !important;
     margin-bottom: 28px !important;
@@ -1743,7 +1734,7 @@ button, input, textarea {
   }
 
   .pipeline-console {
-    padding: 18px 14px 22px !important;
+    padding: 20px 16px 22px !important;
     border-radius: 20px !important;
     width: 100% !important;
     box-sizing: border-box !important;
@@ -1766,7 +1757,8 @@ button, input, textarea {
   }
 
   .console-val {
-    font-size: 30px !important;
+    font-size: clamp(28px, 7vw, 34px) !important;
+    font-weight: 600 !important;
   }
 
   .funnel-container {
@@ -1783,7 +1775,8 @@ button, input, textarea {
   }
   
   .beam-val {
-    font-size: clamp(22px, 6vw, 28px) !important;
+    font-size: clamp(26px, 6.5vw, 32px) !important;
+    font-weight: 600 !important;
     flex-shrink: 0 !important;
   }
 
@@ -1797,12 +1790,13 @@ button, input, textarea {
   }
 
   .beam-info h4 {
-    font-size: 17px !important;
+    font-size: 18.5px !important;
+    font-weight: 600 !important;
     word-break: break-word !important;
   }
 
   .beam-info p {
-    font-size: 10px !important;
+    font-size: 10.5px !important;
   }
   
   .proof-grid {
@@ -1819,7 +1813,8 @@ button, input, textarea {
   }
 
   .proof-metric {
-    font-size: clamp(34px, 9vw, 44px) !important;
+    font-size: clamp(36px, 9vw, 46px) !important;
+    font-weight: 600 !important;
     word-break: break-word !important;
   }
 
@@ -1845,7 +1840,9 @@ button, input, textarea {
   }
 
   .process-title {
-    font-size: 23px !important;
+    font-size: 26px !important;
+    line-height: 1.15 !important;
+    font-weight: 600 !important;
     word-break: break-word !important;
   }
 
@@ -1883,7 +1880,9 @@ button, input, textarea {
   }
 
   .cap-title {
-    font-size: 23px !important;
+    font-size: 26px !important;
+    line-height: 1.15 !important;
+    font-weight: 600 !important;
     word-break: break-word !important;
   }
 
@@ -1974,7 +1973,8 @@ button, input, textarea {
   }
 
   .check-content h5 {
-    font-size: 17px !important;
+    font-size: 19px !important;
+    font-weight: 600 !important;
   }
 
   .check-content p {
@@ -1990,7 +1990,8 @@ button, input, textarea {
   }
 
   .prospect-info h4 {
-    font-size: 18px !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
   }
 
   .doc-meta-grid {
@@ -2029,9 +2030,10 @@ button, input, textarea {
   }
 
   .contact-left-panel h3 {
-    font-size: 28px !important;
-    line-height: 1.15 !important;
+    font-size: 30px !important;
+    line-height: 1.12 !important;
     letter-spacing: -0.02em !important;
+    font-weight: 600 !important;
   }
 
   .contact-left-panel p {
@@ -2074,14 +2076,11 @@ button, input, textarea {
   .footer-grid {
     grid-template-columns: 1fr !important;
     gap: 28px !important;
-    margin-bottom: 40px !important;
+    margin-bottom: 32px !important;
   }
 
   .footer-wordmark {
-    font-size: clamp(36px, 11vw, 76px) !important;
-    letter-spacing: -0.02em !important;
-    margin: 16px 0 32px !important;
-    word-break: break-word !important;
+    display: none !important;
   }
   
   .footer-bottom {
@@ -2095,56 +2094,69 @@ button, input, textarea {
 
 @media (max-width: 480px) {
   .container {
-    padding: 0 12px !important;
+    padding: 0 16px !important;
   }
 
   .section {
-    padding: 50px 0 !important;
+    padding: 56px 0 !important;
   }
 
   .hero-headline {
-    font-size: clamp(34px, 9.2vw, 44px) !important;
-    line-height: 1.05 !important;
+    font-size: clamp(38px, 10vw, 48px) !important;
+    line-height: 1.02 !important;
+    letter-spacing: -0.035em !important;
+    font-weight: 600 !important;
   }
 
   .section-headline {
-    font-size: clamp(29px, 8.2vw, 38px) !important;
-    line-height: 1.08 !important;
+    font-size: clamp(32px, 8.8vw, 42px) !important;
+    line-height: 1.05 !important;
+    letter-spacing: -0.035em !important;
+    font-weight: 600 !important;
   }
 
   .process-title {
-    font-size: 21px !important;
+    font-size: 24px !important;
+    line-height: 1.18 !important;
+    font-weight: 600 !important;
   }
 
   .cap-title {
-    font-size: 21px !important;
+    font-size: 24px !important;
+    line-height: 1.18 !important;
+    font-weight: 600 !important;
   }
 
   .contact-left-panel h3 {
-    font-size: 25px !important;
+    font-size: 28px !important;
+    line-height: 1.15 !important;
+    font-weight: 600 !important;
   }
 
   .check-content h5 {
-    font-size: 16px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
   }
 
   .pipeline-console {
-    padding: 16px 12px 18px !important;
+    padding: 20px 16px 22px !important;
   }
 
   .funnel-beam, .beam-1, .beam-2, .beam-3, .beam-4, .beam-5 {
-    padding: 14px 12px !important;
+    padding: 16px 14px !important;
   }
 
   .beam-info h4 {
-    font-size: 16px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
   }
 
   .beam-val {
-    font-size: 22px !important;
+    font-size: 26px !important;
+    font-weight: 600 !important;
   }
 
   .contact-left-panel, .contact-form-panel {
-    padding: 20px 14px !important;
+    padding: 24px 18px !important;
   }
 }

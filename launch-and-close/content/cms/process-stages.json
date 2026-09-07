@@ -1,0 +1,107 @@
+{
+  "collection": "Process Stages",
+  "fields": [
+    {
+      "name": "Title",
+      "key": "$control__title",
+      "type": "string"
+    },
+    {
+      "name": "Slug",
+      "key": "$control__slug",
+      "type": "string"
+    },
+    {
+      "name": "Number",
+      "key": "$control__number",
+      "type": "string"
+    },
+    {
+      "name": "Summary",
+      "key": "$control__summary",
+      "type": "string"
+    },
+    {
+      "name": "Tag One",
+      "key": "$control__tag_one",
+      "type": "string"
+    },
+    {
+      "name": "Tag Two",
+      "key": "$control__tag_two",
+      "type": "string"
+    },
+    {
+      "name": "Tag Three",
+      "key": "$control__tag_three",
+      "type": "string"
+    },
+    {
+      "name": "Accent",
+      "key": "$control__accent",
+      "type": "color"
+    },
+    {
+      "name": "Icon",
+      "key": "$control__icon",
+      "type": "icon"
+    }
+  ],
+  "items": [
+    {
+      "Title": "Targeted Ad Campaigns",
+      "Slug": "targeted-ad-campaigns",
+      "Number": "01",
+      "Summary": "Facebook and Instagram campaigns engineered around your Ideal Customer Profile \u2014 reaching the exact decision-makers you want in the room.",
+      "Tag One": "Facebook Ads",
+      "Tag Two": "Instagram Ads",
+      "Tag Three": "ICP Targeting",
+      "Accent": "#3FA9FF",
+      "Icon": null
+    },
+    {
+      "Title": "Lead Capture & Intake",
+      "Slug": "lead-capture-intake",
+      "Number": "02",
+      "Summary": "Every inbound lead lands in your own GoHighLevel account. Your data, your pipeline, full visibility from day one.",
+      "Tag One": "GoHighLevel CRM",
+      "Tag Two": "Lead Records",
+      "Tag Three": "Campaign Tracking",
+      "Accent": "#2ED8FF",
+      "Icon": null
+    },
+    {
+      "Title": "Human-Led BANT Qualification",
+      "Slug": "human-led-bant-qualification",
+      "Number": "03",
+      "Summary": "Our team personally calls every lead and scores Budget, Authority, Need and Timeline. No unqualified calls reach your calendar \u2014 ever.",
+      "Tag One": "Budget",
+      "Tag Two": "Authority",
+      "Tag Three": "Need & Timeline",
+      "Accent": "#007BFF",
+      "Icon": null
+    },
+    {
+      "Title": "Scheduling & Confirmation",
+      "Slug": "scheduling-confirmation",
+      "Number": "04",
+      "Summary": "Qualified prospects are booked, reminded and confirmed. We manage every reschedule until the meeting actually happens.",
+      "Tag One": "Calendar Management",
+      "Tag Two": "Reminders",
+      "Tag Three": "Rescheduling",
+      "Accent": "#0057FF",
+      "Icon": null
+    },
+    {
+      "Title": "Sales-Ready Handoff Dossier",
+      "Slug": "sales-ready-handoff-dossier",
+      "Number": "05",
+      "Summary": "Before each call you receive a full briefing: qualification notes, pain points, budget detail and timeline context.",
+      "Tag One": "Pain Points",
+      "Tag Two": "Budget Detail",
+      "Tag Three": "Pre-Call Intel",
+      "Accent": "#001DFF",
+      "Icon": null
+    }
+  ]
+}

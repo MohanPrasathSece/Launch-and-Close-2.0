@@ -1,0 +1,50 @@
+/* Launch & Close — design tokens
+   Generated from the Framer project. Values are the source of truth for any
+   rebuild outside Framer. */
+
+:root {
+  /* ---- colour ---- */
+  --lc-ink: rgb(5, 5, 5);
+  --lc-ink-raised: rgb(10, 12, 18);
+  --lc-glass: rgba(255, 255, 255, 0.04);
+  --lc-glass-raised: rgba(255, 255, 255, 0.07);
+  --lc-hairline: rgba(255, 255, 255, 0.09);
+  --lc-hairline-bright: rgba(255, 255, 255, 0.18);
+  --lc-blue: rgb(0, 87, 255);
+  --lc-blue-electric: rgb(63, 169, 255);
+  --lc-blue-deep: rgb(0, 29, 255);
+  --lc-white: rgb(255, 255, 255);
+  --lc-grey: rgb(184, 188, 200);
+  --lc-grey-dim: rgb(113, 118, 138);
+
+  /* ---- gradients ---- */
+  --lc-gradient-primary: linear-gradient(135deg, #007BFF 0%, #0038FF 55%, #001DFF 100%);
+  --lc-gradient-headline: linear-gradient(96deg, #FFFFFF 0%, #7FC4FF 40%, #0057FF 100%);
+  --lc-gradient-rule: linear-gradient(90deg, rgba(63,169,255,0) 0%, #3FA9FF 100%);
+
+  /* ---- type ---- */
+  --lc-font-display: "Clash Grotesk", "Inter", system-ui, sans-serif;
+  --lc-font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+  --lc-size-display: 92px;
+  --lc-size-display-2: 68px;
+  --lc-size-heading: 38px;
+  --lc-size-subheading: 22px;
+  --lc-size-eyebrow: 11px;
+  --lc-size-body: 17px;
+  --lc-size-body-small: 14px;
+  --lc-size-metric: 54px;
+  --lc-size-mono: 12px;
+  --lc-size-nav-link: 15px;
+  --lc-size-button-label: 15px;
+
+  /* ---- radii ---- */
+  --lc-radius-pill: 100px;
+  --lc-radius-card: 22px;
+  --lc-radius-panel: 28px;
+  --lc-radius-chip: 12px;
+
+  /* ---- layout ---- */
+  --lc-rail: 1200px;
+  --lc-section-pad-y: 150px;
+  --lc-section-pad-x: 40px;
+}

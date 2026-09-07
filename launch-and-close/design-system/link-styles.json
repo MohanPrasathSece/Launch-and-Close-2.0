@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Nav Link",
+    "link": {
+      "textColor": "var(--token-eaf438de-96ab-46b6-815f-37a0f4bb95fe)",
+      "hover": {
+        "textColor": "var(--token-a797b178-e000-4114-9165-3eb3b0202079)"
+      },
+      "current": {
+        "textColor": "var(--token-a797b178-e000-4114-9165-3eb3b0202079)"
+      },
+      "transition": "tween 0.44,0,0.56,1 0.25s 0s"
+    }
+  },
+  {
+    "name": "Footer Link",
+    "link": {
+      "textColor": "var(--token-8d6b5b51-742e-49e8-8c12-c51be1fc9080)",
+      "hover": {
+        "textColor": "var(--token-a797b178-e000-4114-9165-3eb3b0202079)"
+      },
+      "transition": "tween 0.44,0,0.56,1 0.25s 0s"
+    }
+  },
+  {
+    "name": "Inline Link",
+    "link": {
+      "textColor": "var(--token-fa615d05-0777-4a2f-848a-6a276d92e2dd)",
+      "hover": {
+        "textColor": "var(--token-a797b178-e000-4114-9165-3eb3b0202079)"
+      },
+      "transition": "tween 0.44,0,0.56,1 0.25s 0s"
+    }
+  }
+]

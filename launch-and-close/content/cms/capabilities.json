@@ -1,0 +1,85 @@
+{
+  "collection": "Capabilities",
+  "fields": [
+    {
+      "name": "Title",
+      "key": "$control__title",
+      "type": "string"
+    },
+    {
+      "name": "Slug",
+      "key": "$control__slug",
+      "type": "string"
+    },
+    {
+      "name": "Summary",
+      "key": "$control__summary",
+      "type": "string"
+    },
+    {
+      "name": "Number",
+      "key": "$control__number",
+      "type": "string"
+    },
+    {
+      "name": "Accent",
+      "key": "$control__accent",
+      "type": "color"
+    },
+    {
+      "name": "Icon",
+      "key": "$control__icon",
+      "type": "icon"
+    }
+  ],
+  "items": [
+    {
+      "Title": "Full Ad Management",
+      "Slug": "full-ad-management",
+      "Summary": "Creative, targeting and budget pacing \u2014 built, launched and optimised by us.",
+      "Number": "01",
+      "Accent": "#3FA9FF",
+      "Icon": null
+    },
+    {
+      "Title": "Human BANT Qualification",
+      "Slug": "human-bant-qualification",
+      "Summary": "Real people score every lead on Budget, Authority, Need and Timeline.",
+      "Number": "02",
+      "Accent": "#2ED8FF",
+      "Icon": null
+    },
+    {
+      "Title": "Scheduling & Follow-Up",
+      "Slug": "scheduling-follow-up",
+      "Summary": "We book, remind, confirm and reschedule until the meeting takes place.",
+      "Number": "03",
+      "Accent": "#00A0FF",
+      "Icon": null
+    },
+    {
+      "Title": "Pre-Call Sales Dossier",
+      "Slug": "pre-call-sales-dossier",
+      "Summary": "Pain points, budget context, timeline and background \u2014 before you dial.",
+      "Number": "04",
+      "Accent": "#007BFF",
+      "Icon": null
+    },
+    {
+      "Title": "Call Recordings & Notes",
+      "Slug": "call-recordings-notes",
+      "Summary": "Every qualification call recorded and logged. Nothing slips through.",
+      "Number": "05",
+      "Accent": "#0057FF",
+      "Icon": null
+    },
+    {
+      "Title": "Dedicated GoHighLevel",
+      "Slug": "dedicated-gohighlevel",
+      "Summary": "Your own account. Every lead, call and pipeline stage visible. No black boxes.",
+      "Number": "06",
+      "Accent": "#001DFF",
+      "Icon": null
+    }
+  ]
+}

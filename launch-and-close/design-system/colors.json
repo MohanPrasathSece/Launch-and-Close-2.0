@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Ink",
+    "id": "8d1fb4bf-20e3-4e03-9ff0-2fc658339a65",
+    "light": "rgb(5, 5, 5)",
+    "dark": null
+  },
+  {
+    "name": "Ink Raised",
+    "id": "1757fcff-d719-4e97-90a9-2c7a819c6546",
+    "light": "rgb(10, 12, 18)",
+    "dark": null
+  },
+  {
+    "name": "Glass",
+    "id": "fcf104e4-ae67-433d-928f-69d103238b2a",
+    "light": "rgba(255, 255, 255, 0.04)",
+    "dark": null
+  },
+  {
+    "name": "Glass Raised",
+    "id": "34345677-6372-46c4-ac40-c0f24e33adc4",
+    "light": "rgba(255, 255, 255, 0.07)",
+    "dark": null
+  },
+  {
+    "name": "Hairline",
+    "id": "94c349b1-b0df-48f3-8c77-5f5f6c28a869",
+    "light": "rgba(255, 255, 255, 0.09)",
+    "dark": null
+  },
+  {
+    "name": "Hairline Bright",
+    "id": "ca5c089a-140f-4fc5-b502-f9f8cb28990f",
+    "light": "rgba(255, 255, 255, 0.18)",
+    "dark": null
+  },
+  {
+    "name": "Blue",
+    "id": "c74f9289-78e5-464b-bf4c-053efd5dabcc",
+    "light": "rgb(0, 87, 255)",
+    "dark": null
+  },
+  {
+    "name": "Blue Electric",
+    "id": "fa615d05-0777-4a2f-848a-6a276d92e2dd",
+    "light": "rgb(63, 169, 255)",
+    "dark": null
+  },
+  {
+    "name": "Blue Deep",
+    "id": "42b59292-689e-4f09-91c9-faff9dcd8455",
+    "light": "rgb(0, 29, 255)",
+    "dark": null
+  },
+  {
+    "name": "White",
+    "id": "a797b178-e000-4114-9165-3eb3b0202079",
+    "light": "rgb(255, 255, 255)",
+    "dark": null
+  },
+  {
+    "name": "Grey",
+    "id": "eaf438de-96ab-46b6-815f-37a0f4bb95fe",
+    "light": "rgb(184, 188, 200)",
+    "dark": null
+  },
+  {
+    "name": "Grey Dim",
+    "id": "8d6b5b51-742e-49e8-8c12-c51be1fc9080",
+    "light": "rgb(113, 118, 138)",
+    "dark": null
+  }
+]

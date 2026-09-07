@@ -1,0 +1,63 @@
+{
+  "collection": "Comparison Rows",
+  "fields": [
+    {
+      "name": "Label",
+      "key": "$control__label",
+      "type": "string"
+    },
+    {
+      "name": "Slug",
+      "key": "$control__slug",
+      "type": "string"
+    },
+    {
+      "name": "Typical Agency",
+      "key": "$control__typical_agency",
+      "type": "string"
+    },
+    {
+      "name": "Launch And Close",
+      "key": "$control__launch_and_close",
+      "type": "string"
+    }
+  ],
+  "items": [
+    {
+      "Label": "Success metric",
+      "Slug": "success-metric",
+      "Typical Agency": "Raw leads delivered",
+      "Launch And Close": "Attended meetings"
+    },
+    {
+      "Label": "Qualification",
+      "Slug": "qualification",
+      "Typical Agency": "None or minimal",
+      "Launch And Close": "Human BANT on every lead"
+    },
+    {
+      "Label": "Pre-call prep",
+      "Slug": "pre-call-prep",
+      "Typical Agency": "You figure it out",
+      "Launch And Close": "Detailed dossier provided"
+    },
+    {
+      "Label": "CRM access",
+      "Slug": "crm-access",
+      "Typical Agency": "Their system",
+      "Launch And Close": "Your own GoHighLevel"
+    },
+    {
+      "Label": "Rescheduling",
+      "Slug": "rescheduling",
+      "Typical Agency": "Not included",
+      "Launch And Close": "Managed until it happens"
+    },
+    {
+      "Label": "Reporting",
+      "Slug": "reporting",
+      "Typical Agency": "Lead count only",
+      "Launch And Close": "Full pipeline visibility"
+    }
+  ]
+}

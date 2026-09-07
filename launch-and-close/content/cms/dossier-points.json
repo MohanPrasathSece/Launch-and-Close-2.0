@@ -1,0 +1,57 @@
+{
+  "collection": "Dossier Points",
+  "fields": [
+    {
+      "name": "Title",
+      "key": "$control__title",
+      "type": "string"
+    },
+    {
+      "name": "Slug",
+      "key": "$control__slug",
+      "type": "string"
+    },
+    {
+      "name": "Detail",
+      "key": "$control__detail",
+      "type": "string"
+    },
+    {
+      "name": "Icon",
+      "key": "$control__icon",
+      "type": "icon"
+    }
+  ],
+  "items": [
+    {
+      "Title": "Company & Role",
+      "Slug": "company-role",
+      "Detail": "Who you are meeting and exactly what they own.",
+      "Icon": null
+    },
+    {
+      "Title": "Pain Points",
+      "Slug": "pain-points",
+      "Detail": "Surfaced live on the qualification call.",
+      "Icon": null
+    },
+    {
+      "Title": "Budget & Authority",
+      "Slug": "budget-authority",
+      "Detail": "Range confirmed. Signing power verified.",
+      "Icon": null
+    },
+    {
+      "Title": "Timeline & Triggers",
+      "Slug": "timeline-triggers",
+      "Detail": "Why now, and what is forcing the decision.",
+      "Icon": null
+    },
+    {
+      "Title": "Recording & Notes",
+      "Slug": "recording-notes",
+      "Detail": "Full call audio attached in GoHighLevel.",
+      "Icon": null
+    }
+  ]
+}

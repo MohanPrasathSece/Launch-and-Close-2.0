@@ -1,0 +1,77 @@
+{
+  "collection": "Funnel Stages",
+  "fields": [
+    {
+      "name": "Label",
+      "key": "$control__label",
+      "type": "string"
+    },
+    {
+      "name": "Slug",
+      "key": "$control__slug",
+      "type": "string"
+    },
+    {
+      "name": "Value",
+      "key": "$control__value",
+      "type": "string"
+    },
+    {
+      "name": "Caption",
+      "key": "$control__caption",
+      "type": "string"
+    },
+    {
+      "name": "Bar Width",
+      "key": "$control__bar_width",
+      "type": "number"
+    },
+    {
+      "name": "Accent",
+      "key": "$control__accent",
+      "type": "color"
+    }
+  ],
+  "items": [
+    {
+      "Label": "Ad Audience",
+      "Slug": "ad-audience",
+      "Value": "12,480",
+      "Caption": "Reached",
+      "Bar Width": "100",
+      "Accent": "#3FA9FF"
+    },
+    {
+      "Label": "Inbound Leads",
+      "Slug": "inbound-leads",
+      "Value": "486",
+      "Caption": "Captured",
+      "Bar Width": "74",
+      "Accent": "#2ED8FF"
+    },
+    {
+      "Label": "BANT Qualified",
+      "Slug": "bant-qualified",
+      "Value": "92",
+      "Caption": "Verified by humans",
+      "Bar Width": "52",
+      "Accent": "#007BFF"
+    },
+    {
+      "Label": "Meetings Booked",
+      "Slug": "meetings-booked",
+      "Value": "38",
+      "Caption": "Confirmed",
+      "Bar Width": "34",
+      "Accent": "#0057FF"
+    },
+    {
+      "Label": "Dossiers Delivered",
+      "Slug": "dossiers-delivered",
+      "Value": "38",
+      "Caption": "Briefed and ready",
+      "Bar Width": "22",
+      "Accent": "#001DFF"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Display",
+    "tag": "h1",
+    "fontFamily": "Clash Grotesk",
+    "fontWeight": 600,
+    "textTransform": null,
+    "color": "var(--token-a797b178-e000-4114-9165-3eb3b0202079)",
+    "breakpoints": {
+      "default": {
+        "minWidth": "1200px",
+        "fontSize": "92px",
+        "letterSpacing": "-0.04em",
+        "lineHeight": "0.94em",
+        "paragraphSpacing": "0px"
+      },
+      "medium": {
+        "minWidth": "810px",
+        "fontSize": "62px",
+        "letterSpacing": "-0.04em",
+        "lineHeight": "0.96em",
+        "paragraphSpacing": "0px"
+      },
+      "small": {
+        "minWidth": "0px",
+        "fontSize": "40px",
+        "letterSpacing": "-0.03em",
+        "lineHeight": "1em",
+        "paragraphSpacing": "0px"
+      }
+    }
+  },
+  {
+    "name": "Display 2",
+    "tag": "h2",
+    "fontFamily": "Clash Grotesk",
+    "fontWeight": 600,
+    "textTransform": null,
+    "color": "var(--token-a797b178-e000-4114-9165-3eb3b0202079)",
+    "breakpoints": {
+      "default": {
+        "minWidth": "1200px",
+        "fontSize": "68px",
+        "letterSpacing": "-0.035em",
+        "lineHeight": "0.98em",
+        "paragraphSpacing": "40px"
+      },
+      "medium": {
+        "minWidth": "810px",
+        "fontSize": "48px",
+        "letterSpacing": "-0.035em",
+        "lineHeight": "0.98em",
+        "paragraphSpacing": "40px"
+      },
+      "small": {
+        "minWidth": "0px",
+        "fontSize": "34px",
+        "letterSpacing": "-0.025em",
+        "lineHeight": "1.05em",
+        "paragraphSpacing": "40px"
+      }
+    }
+  },
+  {
+    "name": "Heading",
+    "tag": "h3",
+    "fontFamily": "Clash Grotesk",
+    "fontWeight": 600,
+    "textTransform": null,
+    "color": "var(--token-a797b178-e000-4114-9165-3eb3b0202079)",
+    "breakpoints": {
+      "default": {
+        "minWidth": "1200px",
+        "fontSize": "38px",
+        "letterSpacing": "-0.03em",
+        "lineHeight": "1.08em",
+        "paragraphSpacing": "40px"
+      },
+      "medium": {
+        "minWidth": "810px",
+        "fontSize": "30px",
+        "letterSpacing": "-0.03em",
+        "lineHeight": "1.08em",
+        "paragraphSpacing": "40px"
+      },
+      "small": {
+        "minWidth": "0px",
+        "fontSize": "25px",
+        "letterSpacing": "-0.03em",
+        "lineHeight": "1.08em",
+        "paragraphSpacing": "40px"
+      }
+    }
+  },
+  {
+    "name": "Subheading",
+    "tag": "h4",
+    "fontFamily": "Clash Grotesk",
+    "fontWeight": 500,
+    "textTransform": null,
+    "color": "var(--token-a797b178-e000-4114-9165-3eb3b0202079)",
+    "breakpoints": {
+      "default": {
+        "minWidth": "1200px",
+        "fontSize": "22px",
+        "letterSpacing": "-0.02em",
+        "lineHeight": "1.35em",
+        "paragraphSpacing": "40px"
+      },
+      "medium": {
+        "minWidth": "810px",
+        "fontSize": "20px",
+        "letterSpacing": "-0.02em",
+        "lineHeight": "1.35em",
+        "paragraphSpacing": "40px"
+      },
+      "small": {
+        "minWidth": "0px",
+        "fontSize": "18px",
+        "letterSpacing": "-0.02em",
+        "lineHeight": "1.35em",
+        "paragraphSpacing": "40px"
+      }
+    }
+  },
+  {
+    "name": "Eyebrow",
+    "fontFamily": "IBM Plex Mono",
+    "fontWeight": 500,
+    "textTransform": "uppercase",
+    "color": "var(--token-fa615d05-0777-4a2f-848a-6a276d92e2dd)",
+    "breakpoints": {
+      "default": {
+        "minWidth": "0px",
+        "fontSize": "11px",
+        "letterSpacing": "0.2em",
+        "lineHeight": "1em",
+        "paragraphSpacing": "20px"
+      }
+    }
+  },
+  {
+    "name": "Body",
+    "fontFamily": "Clash Grotesk",
+    "fontWeight": 400,
+    "textTransform": null,
+    "color": "var(--token-eaf438de-96ab-46b6-815f-37a0f4bb95fe)",
+    "breakpoints": {
+      "default": {
+        "minWidth": "1200px",
+        "fontSize": "17px",
+        "letterSpacing": "-0.005em",
+        "lineHeight": "1.55em",
+        "paragraphSpacing": "20px"
+      },
+      "medium": {
+        "minWidth": "810px",
+        "fontSize": "16px",
+        "letterSpacing": "-0.005em",
+        "lineHeight": "1.55em",
+        "paragraphSpacing": "20px"
+      },
+      "small": {
+        "minWidth": "0px",
+        "fontSize": "15px",
+        "letterSpacing": "-0.005em",
+        "lineHeight": "1.55em",
+        "paragraphSpacing": "20px"
+      }
+    }
+  },
+  {
+    "name": "Body Small",
+    "fontFamily": "Clash Grotesk",
+    "fontWeight": 400,
+    "textTransform": null,
+    "color": "var(--token-8d6b5b51-742e-49e8-8c12-c51be1fc9080)",
+    "breakpoints": {
+      "default": {
+        "minWidth": "0px",
+        "fontSize": "14px",
+        "letterSpacing": "0em",
+        "lineHeight": "1.5em",
+        "paragraphSpacing": "20px"
+      }
+    }
+  },
+  {
+    "name": "Metric",
+    "fontFamily": "Clash Grotesk",
+    "fontWeight": 600,
+    "textTransform": null,
+    "color": "var(--token-a797b178-e000-4114-9165-3eb3b0202079)",
+    "breakpoints": {
+      "default": {
+        "minWidth": "1200px",
+        "fontSize": "54px",
+        "letterSpacing": "-0.035em",
+        "lineHeight": "1em",
+        "paragraphSpacing": "20px"
+      },
+      "medium": {
+        "minWidth": "810px",
+        "fontSize": "44px",
+        "letterSpacing": "-0.035em",
+        "lineHeight": "1em",
+        "paragraphSpacing": "20px"
+      },
+      "small": {
+        "minWidth": "0px",
+        "fontSize": "36px",
+        "letterSpacing": "-0.035em",
+        "lineHeight": "1em",
+        "paragraphSpacing": "20px"
+      }
+    }
+  },
+  {
+    "name": "Mono",
+    "fontFamily": "IBM Plex Mono",
+    "fontWeight": 400,
+    "textTransform": null,
+    "color": "var(--token-8d6b5b51-742e-49e8-8c12-c51be1fc9080)",
+    "breakpoints": {
+      "default": {
+        "minWidth": "0px",
+        "fontSize": "12px",
+        "letterSpacing": "0.04em",
+        "lineHeight": "1.3em",
+        "paragraphSpacing": "20px"
+      }
+    }
+  },
+  {
+    "name": "Nav Link",
+    "fontFamily": "Clash Grotesk",
+    "fontWeight": 500,
+    "textTransform": null,
+    "color": "var(--token-eaf438de-96ab-46b6-815f-37a0f4bb95fe)",
+    "breakpoints": {
+      "default": {
+        "minWidth": "0px",
+        "fontSize": "15px",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1em",
+        "paragraphSpacing": "20px"
+      }
+    }
+  },
+  {
+    "name": "Button Label",
+    "fontFamily": "Clash Grotesk",
+    "fontWeight": 500,
+    "textTransform": null,
+    "color": "var(--token-a797b178-e000-4114-9165-3eb3b0202079)",
+    "breakpoints": {
+      "default": {
+        "minWidth": "0px",
+        "fontSize": "15px",
+        "letterSpacing": "-0.005em",
+        "lineHeight": "1em",
+        "paragraphSpacing": "20px"
+      }
+    }
+  }
+]

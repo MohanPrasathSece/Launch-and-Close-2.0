@@ -286,6 +286,7 @@ button, input, textarea {
 .nav-cta {
   display: flex;
   align-items: center;
+  gap: 12px;
 }
 
 .mobile-menu-btn {

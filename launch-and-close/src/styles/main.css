@@ -1504,6 +1504,48 @@ button, input, textarea {
   color: #ffffff;
 }
 
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #8b92a5;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+}
+
+.footer-social-link:hover {
+  color: #ffffff;
+  background: rgba(0, 102, 255, 0.16);
+  border-color: rgba(63, 169, 255, 0.45);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 87, 255, 0.3);
+}
+
+.footer-social-link:active {
+  transform: translateY(0);
+}
+
+.footer-social-link svg {
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+.footer-social-link:hover svg {
+  transform: scale(1.08);
+}
+
 .footer-wordmark {
   display: none !important;
 }

@@ -1060,21 +1060,26 @@ button, input, textarea {
 .td-typical {
   color: #71768a;
   font-size: 15px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
+  vertical-align: middle;
+}
+
+.td-typical svg {
+  display: inline-block;
+  vertical-align: -3px;
+  margin-right: 10px;
 }
 
 .td-highlight {
   font-size: 16px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
   color: #ffffff;
+  vertical-align: middle;
 }
 
 .td-highlight svg {
   color: #3FA9FF;
+  display: inline-block;
+  vertical-align: -3px;
+  margin-right: 10px;
 }
 
 .comparison-closing {
